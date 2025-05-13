@@ -1,8 +1,23 @@
 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   background-color: beige;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#root {
+  margin: 1rem;
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
 }
 
 main {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  gap: 1rem;
 }
