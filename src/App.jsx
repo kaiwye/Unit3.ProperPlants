@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PLANTS from "./data";
-import PlantsCatalog from "./Components/Plants/PlantsCatalog";
 import Cart from "./Components/Cart/Cart";
+import PlantsCatalog from "./Components/Plants/PlantsCatalog";
 
 export default function App() {
   const [cart, setCart] = useState(null);
