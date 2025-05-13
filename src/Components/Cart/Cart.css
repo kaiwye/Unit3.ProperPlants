@@ -1,0 +1,6 @@
+.cart-item-counter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 1ch;
+}

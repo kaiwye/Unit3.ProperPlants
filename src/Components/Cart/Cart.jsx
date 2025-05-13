@@ -1,5 +1,4 @@
 import CartItem from "./CartItem";
-import "./Cart.css";
 
 export default function Cart({ cart, removeFromCart, addToCart }) {
   return (

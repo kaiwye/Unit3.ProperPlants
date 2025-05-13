@@ -1,3 +1,5 @@
+import "./Cart.css";
+
 export default function CartItemCounter({ item, removeFromCart, addToCart }) {
   return (
     <div className="cart-item-counter">
